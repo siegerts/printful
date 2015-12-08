@@ -1,10 +1,8 @@
-# printful
+printful: Printful API Client for Python 3
+==========================================
 
-Printful API Client for Python 3
-================================
-
-The Printful API client wrapper makes life a bit easier when working with the `API <https://www.theprintful.com/docs/index>`_.
-This is an update from the original Python 2.7 client library that was provided `here <https://www.theprintful.com/docs/libraries>`_ .
+The Printful API client wrapper makes life a bit easier when working with the [API](https://www.theprintful.com/docs/index).
+This is an update from the original Python 2.7 client library that was provided [here](https://www.theprintful.com/docs/libraries) .
 THe module requires an API key as input.  The key can be generated in the store settings of your Printful account.
 
 
@@ -17,7 +15,7 @@ Quickstart
     >>> orders = pf.get('orders')
 
 
-The Printful class extends the `Requests <http://docs.python-requests.org/en/latest/>`_ libarary so data, param, json, etc. can be passed just as you would with requests.
+The Printful class extends the [Requests](http://docs.python-requests.org/en/latest/) libarary so data, param, json, etc. can be passed just as you would with requests.
 
     >>> address = {  'recipient': {
                          'country_code': 'US',
