@@ -15,7 +15,7 @@ Quickstart
     >>> orders = pf.get('orders')
 
 
-The Printful class extends the [Requests](http://docs.python-requests.org/en/latest/) libarary so data, param, json, etc. can be passed just as you would with requests.
+The Printful class extends the [Requests](http://docs.python-requests.org/en/latest/) library so data, param, json, etc. can be passed just as you would with requests.
 
     >>> address = {  'recipient': {
                          'country_code': 'US',
