@@ -26,7 +26,7 @@ The Printful class extends the [Requests](http://docs.python-requests.org/en/lat
                         {'variant_id': 1118, 'quantity': 2}
                      ]
                  }
-    >>> pf.post('shipping/rates', json=SHIPPING_RATES)
+    >>> pf.post('shipping/rates', json=address)
 
 
 Or, retrieve only certain orders using `offset` and `limit`.
