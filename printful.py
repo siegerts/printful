@@ -47,7 +47,7 @@ class Printful:
 
         """
         self.key = bytearray(key, 'utf-8')
-        self.api_url = 'https://api.theprintful.com/'
+        self.api_url = 'https://api.printful.com/'
         self.user_agent = 'Printful API Python Library 1.2'
         self._response = {}
 
